@@ -1,0 +1,32 @@
+name: pos_app
+description: A new Flutter project.
+
+# This prevents the project from being published on pub.dev.
+publish_to: "none"
+
+# Application version and build number.
+version: 1.0.0+1
+
+# Flutter and Dart SDK environment constraints.
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+# Dependencies for the project.
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.5 # State management
+  http: ^1.2.2 # HTTP package for backend communication
+  fl_chart: ^0.36.4 # Charting library for dashboard visuals
+  syncfusion_flutter_charts: ^20.4.50
+  cupertino_icons: ^1.0.8 # iOS-styled icons
+
+# Development dependencies for testing and linting.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+# Configuration specific to Flutter packages.
+flutter:
+  uses-material-design: true
